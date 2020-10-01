@@ -17,8 +17,9 @@ else:
    print("The Fibonacci sequence is:")
    while index < terms:
        print(n1)
+       print("\n")
        n = n1 + n2
        # update terms
        n1 = n2
        n2 = n
-       index += 1
+       index++
